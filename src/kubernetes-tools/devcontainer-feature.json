@@ -1,0 +1,17 @@
+{
+    "name": "Kubernetes Tools",
+    "id": "kubernetes-tools",
+    "version": "0.0.1",
+    "description": "Installs Kubernetes tools via apt-get",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "licenseURL": "https://mit-license.org/",
+    "documentationURL": "https://github.com/23ClubSandwiches/devcontainer-features/blob/main/src/kubernetes-tools/README.md",
+    "keywords": [
+        "Kubernetes",
+        "Docker",
+        "kubectl",
+        "Podman"
+    ]
+}

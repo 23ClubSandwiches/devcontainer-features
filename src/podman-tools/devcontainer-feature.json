@@ -1,0 +1,15 @@
+{
+    "name": "Podman Tools",
+    "id": "podman-tools",
+    "version": "0.0.1",
+    "description": "Installs Podman tools via apt-get",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "licenseURL": "https://mit-license.org/",
+    "documentationURL": "https://github.com/23ClubSandwiches/devcontainer-features/blob/main/src/podman-tools/README.md",
+    "keywords": [
+        "Podman",
+        "Docker"
+    ]
+}
