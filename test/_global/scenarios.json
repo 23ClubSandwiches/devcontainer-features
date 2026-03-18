@@ -1,0 +1,28 @@
+{
+    "dioxus-full-stack": {
+        "image": "debian:latest",
+        "features": {
+            "./common-utils": {},
+            "./rust-tools": {},
+            "./dioxus-tools": {}
+        }
+    },
+    "k8s-and-podman": {
+        "image": "ubuntu:latest",
+        "features": {
+            "./common-utils": {},
+            "./kubernetes-tools": {},
+            "./podman-tools": {}
+        }
+    },
+    "all-features": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "features": {
+            "./common-utils": {},
+            "./rust-tools": {},
+            "./kubernetes-tools": {},
+            "./podman-tools": {},
+            "./dioxus-tools": {}
+        }
+    }
+}

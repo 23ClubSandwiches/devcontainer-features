@@ -1,0 +1,11 @@
+{
+    "default": {
+        "image": "debian:latest"
+    },
+    "ubuntu": {
+        "image": "ubuntu:latest"
+    },
+    "microsoft-base": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu"
+    }
+}
