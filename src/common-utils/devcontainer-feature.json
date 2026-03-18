@@ -1,7 +1,7 @@
 {
   "name": "Common Utilities",
   "id": "common-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Installs common utilities and base dependencies for devcontainer features",
   "documentationURL": "https://github.com/witmer/devcontainer-features/tree/main/src/common-utils/README.md",
   "keywords": ["common", "utilities", "base"]

@@ -12,7 +12,6 @@ This feature provides essential base packages and system utilities that other fe
 |---------|----------------------|
 | `debian-archive-keyring` | APT (package manager) |
 | `debian-keyring` | APT (package manager) |
-| `ubuntu-archive-keyring` | APT (package manager) |
 | `ubuntu-keyring` | APT (package manager) |
 
 ### Additional Actions
@@ -27,7 +26,12 @@ This feature is typically used as a dependency for other features that require b
 ```json
 {
     "features": {
-        "ghcr.io/<your-registry>/common-utils:1.0.1": {}
+        "ghcr.io/<your-registry>/common-utils:1.0.2": {}
     }
 }
 ```
+##
+### Changelog
+V1.0.1: First Working Version
+
+V1.0.2: Added ubuntu noble repository to provide ubuntu-keyring
