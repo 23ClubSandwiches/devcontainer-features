@@ -4,7 +4,9 @@ set -e
 echo "Activating feature 'kubernetes-tools'"
 
 # Install kubectl
-apt-get install -y kubectl
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+chmod +x kubectl
+mv ./kubectl /usr/local/bin/kubectl
 
 # Verify kubectl installation
 if ! command -v kubectl version &> /dev/null; then

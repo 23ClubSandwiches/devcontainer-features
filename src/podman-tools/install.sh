@@ -4,7 +4,8 @@ set -e
 echo "Activating feature 'podman-tools'"
 
 # Install podman
-apt-get install -y podman
+apt update
+apt install -y podman
 
 # Verify installation
 if ! command -v podman version &> /dev/null; then

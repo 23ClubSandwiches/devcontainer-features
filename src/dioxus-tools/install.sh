@@ -4,7 +4,10 @@ set -e
 echo "Activating feature 'dioxus-tools'"
 
 # Install dioxus-cli
-cargo binstall dioxus-cli --force
+curl -sSL https://dioxus.dev/install.sh | bash
+
+# Add dioxus binary to PATH
+export PATH="/root/.dx/bin:$PATH"
 
 # Verify installation
 if ! command -v dx --version &> /dev/null; then

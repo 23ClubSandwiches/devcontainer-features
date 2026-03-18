@@ -1,12 +1,12 @@
 {
     "name": "Dioxus Tools",
     "id": "dioxus-tools",
-    "version": "0.0.1",
-    "description": "Installs Dioxus via cargo-binstall",
-    "installsAfter": [
-        "ghcr.io/devcontainers/features/common-utils",
-        "ghcr.io/23clubsandwiches/devcontainer-features/rust-tools"
-    ],
+    "version": "1.0.1",
+    "description": "Installs Dioxus via cargo install",
+    "dependsOn": {
+        "./common-utils": {},
+        "./rust-tools": {}
+    },
     "licenseURL": "https://mit-license.org/",
     "documentationURL": "https://github.com/23ClubSandwiches/devcontainer-features/blob/main/src/dioxus-tools/README.md",
     "keywords": [
