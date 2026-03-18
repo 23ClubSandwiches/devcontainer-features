@@ -46,3 +46,6 @@ Include this feature in your `devcontainer.json`:
 After installation, you can use:
 - `kubectl` - Kubernetes cluster management
 - `kompose` - Convert Docker Compose to Kubernetes manifests
+##
+### Changelog
+V1.0.1: First Working Version

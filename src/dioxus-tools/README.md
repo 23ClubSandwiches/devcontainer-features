@@ -47,3 +47,6 @@ After installation, you can use:
 - `dx serve` - Start a development server
 - `dx build` - Build for production
 - `dx create` - Create new Dioxus projects
+##
+### Changelog
+V1.0.1: First Working Version

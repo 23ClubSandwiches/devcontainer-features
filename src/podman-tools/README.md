@@ -39,3 +39,6 @@ Include this feature in your `devcontainer.json`:
 After installation, you can use:
 - `podman` - Container management (compatible with Docker CLI)
 - `podman compose` - Multi-container orchestration
+##
+### Changelog
+V1.0.1: First Working Version

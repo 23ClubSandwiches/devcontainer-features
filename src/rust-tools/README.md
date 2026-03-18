@@ -50,3 +50,6 @@ After installation, you can use:
 - `rustc` - Rust compiler
 - `cargo` - Package manager and build tool
 - `rustup` - Toolchain manager
+##
+### Changelog
+V1.0.1: First Working Version
